@@ -766,12 +766,15 @@ button {
   margin-right: 8px;
   display: block;
   cursor: pointer;
+  align-items: center;
 }
 
 .modal-form-check:checked + .modal-form-check-desc::before {
+  background-position: center;
+  background-repeat: no-repeat;
   background-color:#4D5AE5;
   border-color: transparent;
-  background-image: url(../HomeWork6/sprite.svg#icon-icon-check);
+  background-image: url(../HomeWork6/for-sprite/galochka.svg);
 }
 
 .modal-form-check:focus + .modal-form-check-desc::before {
